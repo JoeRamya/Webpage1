@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.top1 {
+    background-color: #ff4c68;
+    height: 600px;
+    color: white;
+    overflow: hidden;
+}
+
+.top1 h1,
+h2 {
+    margin-left: 200px;
+}
+
+
+.top1 ul {
+    margin-left: 300px;
+}
+
+.top1 h2,
+ul,
+li,
+nav {
+    display: inline;
+
+}
+
+.top1 h1 {
+
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 50px;
+    width: 550px;
+}
+
+.top1 h2 {
+    margin-top: 30%;
+    font-size: 45px;
+}
+
+.top1 li {
+    padding-right: 40px;
+    font-size: 25px;
+    color: rgb(203, 193, 193);
+}
+
+.top1 li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.header {
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.banner {
+    display: flex;
+    margin-top: 50px;
+}
+
+.iphone6 {
+    height: 600px;
+    width: 300px;
+    transform: rotate(20deg);
+}
+
+.imageiphone6 {
+    margin-top: 50px;
+
+}
+
+
+.apple {
+    background-color: black;
+    color: white;
+    height: 45px;
+    margin-left: 200px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    padding: 10px auto !important;
+    width: 150px;
+}
+
+.playstore {
+    height: 45px;
+    font-size: large;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px auto !important;
+    width: 150px;
+
+}
+
+.playstore:hover {
+    color: black !important;
+    background-color: white;
+}
+
+.playstore:hover i {
+    color: black !important;
+}
+
+
+
+/* Second div */
+
+
+.top2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 80px;
+}
+
+.tick,
+.circle,
+.heart {
+    text-align: center;
+    width: 250px;
+
+}
+
+.top2 .tick i,
+.top2 .circle i,
+.top2 .heart i {
+    font-size: 100px;
+}
+
+.top2 .tick i:hover,
+.top2 .circle i:hover,
+.top2 .heart i:hover {
+    color: rgb(232, 82, 82) !important;
+}
+
+
+/* Third div */
+
+.top3 {
+    background-color: #ef8172;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.para1 h1 {
+    padding-top: 90px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+.dogclass {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.top3 p {
+    display: inline-block;
+    color: white;
+
+}
+
+.logo {
+    padding-bottom: 100px;
+    padding-top: 130px;
+
+}
+
+.tech,
+.biz {
+    height: 40px;
+    width: 250px;
+    padding-right: 40px;
+}
+
+.tnw {
+    height: 70px;
+    width: 200px;
+    padding-right: 40px;
+}
+
+.mash {
+    height: 50px;
+    width: 200px;
+    padding-right: 40px;
+}
+
+.top3_img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.top3_img p {
+    margin-top: 94px;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+
+/* Fourth Div */
+
+.top4 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.top4-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    align-content: center;
+}
+
+.top4 p {
+    padding: 8px;
+}
+.Chihuahua{
+
+    border: 1px solid rgb(206, 202, 202) ;
+    width: 400px;
+    height: 380px;
+    border-radius: 5px;
+}
+.Chihuahua h1{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid  rgb(206, 202, 202);
+}
+    
+.Chihuahua h3{
+    padding-top: 30px;
+    
+}
+
+.signup1 {
+   
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+
+}
+.labrador{
+
+    border: 1px solid  rgb(206, 202, 202) ;
+    width: 400px;
+    height: 380px;
+    border-radius: 5px;
+}
+.labrador h1{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid  rgb(206, 202, 202);
+}
+    
+.labrador h3{
+    padding-top: 30px;
+    
+}
+
+
+
+.signup2 {
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+.Mastiff{
+
+    border: 1px solid rgb(206, 202, 202) ;
+    width: 400px;
+    height: 380px;
+    border-radius: 5px;
+}
+.Mastiff h1{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid  rgb(206, 202, 202);
+}
+    
+.Mastiff h3{
+    padding-top: 30px;
+    
+}
+
+.signup3 {
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+
+.signup1:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* fifth div */
+
+.top5 {
+    background-color: #ff4c68;
+    height: 480px;
+}
+
+.top5 p {
+    text-align: center;
+    font-size: 50px;
+    font-style: initial;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.apple1 {
+    background-color: black;
+    color: white;
+    height: 45px;
+    margin-left: 600px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    padding: 10px auto !important;
+    width: 150px;
+}
+
+.playstore1 {
+    height: 45px;
+    font-size: large;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px auto !important;
+    width: 150px;
+
+}
+
+.playstore1:hover {
+    color: black !important;
+    background-color: white;
+}
+
+.playstore1:hover i {
+
+    color: black !important;
+}
+.top6{
+
+   height: 400px; 
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 50px;
+    font-size: 2rem;
+}
+.copyright{
+margin-left: 650px;
+margin-top: 25px;
+
+}
+.copyright span{
+    color: blue;
+}
+.copyright P{
+    margin-top: 10PX;
+    margin-left: 10PX;
+}
